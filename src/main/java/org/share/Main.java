@@ -1,0 +1,26 @@
+package org.share;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.*;
+
+import java.math.BigDecimal;
+
+@RestController
+@SpringBootApplication
+public class Main {
+    @RequestMapping("/")
+    String home() {
+        return "Hello World!";
+    }
+
+    @GetMapping("/share/delivery/{ric}/{quantity}/{price}")
+    @ResponseBody
+    public String getShareDelivery(@PathVariable String ric, @PathVariable Integer quantity, @PathVariable BigDecimal price) {
+        return "ric: " + ric;
+    }
+
+    public static void main(String[] args) {
+        SpringApplication.run(Main.class, args);
+    }
+}

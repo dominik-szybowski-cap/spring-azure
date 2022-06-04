@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15281e7f-dbdf-4d99-9388-62e266549957" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/azure/azureSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/share/Main.java" afterDir="false" />
+    <list default="true" id="15281e7f-dbdf-4d99-9388-62e266549957" name="Changes" comment="initial setup">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +15,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1654254724" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1654254723" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,10 +54,39 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Azure Spring Apps.Deploy Spring app: SpringAzure">
+    <configuration name="Deploy Spring app: SpringAzure" type="AZURE_SPRING_CLOUD_SUPPORT" factoryName="Deploy Spring Cloud Services">
+      <SpringCloudAppConfig>
+        <option name="activeDeploymentName" value="default" />
+        <option name="appName" value="spring-share" />
+        <option name="clusterName" value="spring-share-delivery" />
+        <option name="deployment">
+          <SpringCloudDeploymentConfig>
+            <option name="cpu" value="1.0" />
+            <option name="deploymentName" />
+            <option name="enablePersistentStorage" value="false" />
+            <option name="environment" />
+            <option name="instanceCount" />
+            <option name="jvmOptions" />
+            <option name="memoryInGB" value="1.0" />
+            <option name="runtimeVersion" value="Java_8" />
+          </SpringCloudDeploymentConfig>
+        </option>
+        <option name="isPublic" value="false" />
+        <option name="resourceGroup" />
+        <option name="runtimeVersion" value="Java_8" />
+        <option name="subscriptionId" value="b9e7b51f-e90e-4fff-9248-cf99adbb2f61" />
+      </SpringCloudAppConfig>
+      <Artifact identifier="org.share:SpringAzure:1.0-SNAPSHOT" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="package" />
+      </method>
+    </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SpringAzure" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.share.Main" />
@@ -65,8 +114,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654253909937</updated>
-      <workItem from="1654253911561" duration="673000" />
+      <workItem from="1654253911561" duration="4933000" />
     </task>
+    <task id="LOCAL-00001" summary="initial setup">
+      <created>1654254789217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654254789217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +139,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial setup" />
   </component>
 </project>

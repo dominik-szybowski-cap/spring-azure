@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15281e7f-dbdf-4d99-9388-62e266549957" name="Changes" comment="change dockerfile3">
+    <list default="true" id="15281e7f-dbdf-4d99-9388-62e266549957" name="Changes" comment="change dockerfile4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.Main">
+  <component name="RunManager" selected="JAR Application.SpringAzure-1.0-SNAPSHOT.jar">
     <configuration name="Docker: SpringAzure:SpringAzure" type="AZURE_DOCKER_SUPPORT_CONFIGURATION" factoryName="Docker">
       <option name="dockerCertPath" value="" />
       <option name="dockerFilePath" value="C:\Users\DSZYBOWS\IdeaProjects\SpringAzure\Dockerfile" />
@@ -104,6 +104,10 @@
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="package" />
       </method>
     </configuration>
+    <configuration name="SpringAzure-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/SpringAzure-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
       <module name="SpringAzure" />
@@ -121,10 +125,12 @@
     <list>
       <item itemvalue="Azure Docker Support.Docker: SpringAzure:SpringAzure" />
       <item itemvalue="Azure Spring Apps.Deploy Spring app: SpringAzure" />
+      <item itemvalue="JAR Application.SpringAzure-1.0-SNAPSHOT.jar" />
       <item itemvalue="Spring Boot.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.SpringAzure-1.0-SNAPSHOT.jar" />
         <item itemvalue="Spring Boot.Main" />
       </list>
     </recent_temporary>
@@ -137,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654253909937</updated>
-      <workItem from="1654253911561" duration="13335000" />
+      <workItem from="1654253911561" duration="15093000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup">
       <created>1654254789217</created>
@@ -188,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654420441402</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change dockerfile4">
+      <created>1654423290867</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654423290867</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +226,7 @@
     <MESSAGE value="revert" />
     <MESSAGE value="change dockerfile" />
     <MESSAGE value="change dockerfile3" />
-    <option name="LAST_COMMIT_MESSAGE" value="change dockerfile3" />
+    <MESSAGE value="change dockerfile4" />
+    <option name="LAST_COMMIT_MESSAGE" value="change dockerfile4" />
   </component>
 </project>

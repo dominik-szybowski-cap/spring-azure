@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15281e7f-dbdf-4d99-9388-62e266549957" name="Changes" comment="change dockerfile" />
+    <list default="true" id="15281e7f-dbdf-4d99-9388-62e266549957" name="Changes" comment="change dockerfile3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +63,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Azure Docker Support.Docker: SpringAzure:SpringAzure">
+  <component name="RunManager" selected="Spring Boot.Main">
     <configuration name="Docker: SpringAzure:SpringAzure" type="AZURE_DOCKER_SUPPORT_CONFIGURATION" factoryName="Docker">
       <option name="dockerCertPath" value="" />
       <option name="dockerFilePath" value="C:\Users\DSZYBOWS\IdeaProjects\SpringAzure\Dockerfile" />
@@ -134,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654253909937</updated>
-      <workItem from="1654253911561" duration="11132000" />
+      <workItem from="1654253911561" duration="13335000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup">
       <created>1654254789217</created>
@@ -178,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654419318888</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change dockerfile3">
+      <created>1654420441402</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654420441402</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +212,7 @@
     <MESSAGE value="config change" />
     <MESSAGE value="revert" />
     <MESSAGE value="change dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="change dockerfile" />
+    <MESSAGE value="change dockerfile3" />
+    <option name="LAST_COMMIT_MESSAGE" value="change dockerfile3" />
   </component>
 </project>

@@ -27,6 +27,7 @@ public class Main {
     public String getShareDelivery(@PathVariable String ric, @PathVariable Integer quantity, @PathVariable BigDecimal price) {
         Position position = new Position(new Share(ric), quantity, price);
         openPositions.add(position);
+        System.out.println("test");
         return "New Position Open: " + position;
     }
 

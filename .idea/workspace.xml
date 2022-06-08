@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15281e7f-dbdf-4d99-9388-62e266549957" name="Changes" comment="changed spring bood maven plugin">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/share/domain/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/share/domain/Share.java" afterDir="false" />
+    <list default="true" id="15281e7f-dbdf-4d99-9388-62e266549957" name="Changes" comment="enhanced logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/share/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/share/Main.java" afterDir="false" />
     </list>
@@ -26,6 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -69,10 +68,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "a1368cf30da3f61068d2deb50cb5046c"
   }
 }]]></component>
-  <component name="RunManager" selected="JAR Application.SpringAzure-1.0-SNAPSHOT.jar">
+  <component name="RunManager" selected="Azure Docker Support.Docker: SpringAzure:SpringAzure">
     <configuration name="Docker: SpringAzure:SpringAzure" type="AZURE_DOCKER_SUPPORT_CONFIGURATION" factoryName="Docker">
       <option name="dockerCertPath" value="" />
       <option name="dockerFilePath" value="C:\Users\DSZYBOWS\IdeaProjects\SpringAzure\Dockerfile" />
@@ -108,7 +108,6 @@
         <option name="runtimeVersion" value="Java_8" />
         <option name="subscriptionId" value="b9e7b51f-e90e-4fff-9248-cf99adbb2f61" />
       </SpringCloudAppConfig>
-      <Artifact identifier="org.share:SpringAzure:1.0-SNAPSHOT" />
       <method v="2">
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="package" />
       </method>
@@ -152,7 +151,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654253909937</updated>
-      <workItem from="1654253911561" duration="17070000" />
+      <workItem from="1654253911561" duration="20444000" />
+      <workItem from="1654512653415" duration="6759000" />
     </task>
     <task id="LOCAL-00001" summary="initial setup">
       <created>1654254789217</created>
@@ -217,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654426433208</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="enhanced logic">
+      <created>1654428343354</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654428343354</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +251,7 @@
     <MESSAGE value="change dockerfile3" />
     <MESSAGE value="change dockerfile4" />
     <MESSAGE value="changed spring bood maven plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed spring bood maven plugin" />
+    <MESSAGE value="enhanced logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="enhanced logic" />
   </component>
 </project>
